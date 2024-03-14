@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResetPassActivity"
+    android:orientation="vertical"
+    android:background="#414040">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="80dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="RESET PASSWORD"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="#F6E122"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        app:cardCornerRadius="80dp">
+
+        <EditText
+            android:id="@+id/gmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D8D5C1"
+            android:gravity="center"
+            android:hint="Enter your gmail id"
+            android:textColorHint="#000000"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="40dp"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="70dp"
+        >
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Reset"
+        android:background="#CCC8B2"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password reset link will be sent to your registered E-mail id"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+
+</LinearLayout>

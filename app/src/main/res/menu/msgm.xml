@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/videocall"
+        app:showAsAction="always"
+        android:title="video call"
+        android:id="@+id/video_call"/>
+
+    <item
+        android:icon="@drawable/call"
+        app:showAsAction="always"
+        android:title="voice call"
+        android:id="@+id/call"/>
+
+    <item
+        app:showAsAction="never"
+        android:title="Clear Chat"
+        android:id="@+id/cleat_chat"/>
+
+
+
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F8A42B</color>
+    <color name="bhagva">#FDBA51</color>
+    <color name="colorPrimaryDark">#1CCC1C</color>
+    <color name="colorPrimaryDarki">#12AA12</color>
+    <color name="colorAccent">#1Dee1D</color>
+    <color name="msa">#FFEB3B</color>
+    <color name="mst">#414040</color>
+    <color name="grey">#EEECEC</color>
+    <color name="LghtGrey">#F7F5F5</color>
+</resources>

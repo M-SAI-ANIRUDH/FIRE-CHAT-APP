@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+<RelativeLayout
+    android:id="@+id/right_messageos"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textSize="20dp"
+            android:padding="8dp"
+            android:textColor="#fff"
+            android:id="@+id/show_message"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/background_right"
+            android:elevation="5dp" />
+
+        <ImageView
+            android:id="@+id/seen_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/show_message"/>
+
+
+        <TextView
+            android:id="@+id/text_seen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="delivered"
+            android:layout_below="@id/show_message"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:visibility="gone"
+    android:id="@+id/left_messegeos"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="8dp">
+
+<RelativeLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:id="@+id/show_messagee"
+        android:padding="8dp"
+        android:background="@drawable/background_left"
+        android:elevation="10dp"/>
+
+    <ImageView
+        android:id="@+id/seen_imge"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone"
+        android:background="@drawable/seen"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/show_messagee"/>
+
+
+    <TextView
+        android:id="@+id/text_seene"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delivered"
+        android:visibility="gone"
+        android:layout_below="@id/show_messagee"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/right_imageos"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:id="@+id/image_msgo"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/imj_bg_rt"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:id="@+id/seen_imgi"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/image_msgo"/>
+
+
+            <TextView
+                android:id="@+id/text_seeni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="delivered"
+                android:layout_below="@id/image_msgo"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/left_imgeos"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+
+            <ImageView
+                android:id="@+id/image_msgii"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/imj_bg_left"
+                android:padding="5dp"
+                />
+
+            <ImageView
+                android:id="@+id/seen_imgii"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:visibility="gone"
+                android:layout_below="@id/image_msgii"/>
+
+            <TextView
+                android:id="@+id/text_seenii"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="delivered"
+                android:visibility="gone"
+                android:layout_below="@id/image_msgii"
+                android:layout_alignParentLeft="true"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

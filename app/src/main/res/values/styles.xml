@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionOverflowButtonStyle">@style/DotsTheme</item>
+    </style>
+
+    <style name="DotsTheme" parent="@style/Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">#fff</item>
+    </style>
+
+    <style name="MenuStyle" parent="Theme.AppCompat.Light">
+        <item name="android:background">#6B6A6A</item>
+        <item name="android:textColor">#fff</item>
+    </style>
+</resources>

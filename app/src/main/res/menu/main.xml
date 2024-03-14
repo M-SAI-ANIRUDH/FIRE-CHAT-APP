@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item1"
+        android:title="@string/item1"
+        android:icon="@drawable/ic_icon"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/logout"
+        android:title="L o g o u t"
+        app:showAsAction="never"
+        />
+
+
+    <item
+        android:id="@+id/help"
+        android:title="C o n t a c t    u s"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="P r o f i l e"
+        app:showAsAction="never"/>
+
+</menu>

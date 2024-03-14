@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "332519613874",
+    "firebase_url": "https://fire-chat-msa.firebaseio.com",
+    "project_id": "fire-chat-msa",
+    "storage_bucket": "fire-chat-msa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332519613874:android:820f2294ccd5996d75f0ab",
+        "android_client_info": {
+          "package_name": "com.msa.testingmsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332519613874-ce1f97sgd75q1jjaidq890cb2fn2ulgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.msa.testingmsa",
+            "certificate_hash": "20cddfd00a3c70333c8cd9dd81bb010b1c1a5909"
+          }
+        },
+        {
+          "client_id": "332519613874-re44iaktvu3kortmm6e3ij1v1amtvpfv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.msa.testingmsa",
+            "certificate_hash": "5f9aa63955aee5586bd8f3998b28c5c683fa56ed"
+          }
+        },
+        {
+          "client_id": "332519613874-c3dtf4n0inoqvtac6t3e93h8ufq6rlgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "RESPECTIVE API KEY HERE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332519613874-c3dtf4n0inoqvtac6t3e93h8ufq6rlgj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

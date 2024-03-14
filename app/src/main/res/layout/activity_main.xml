@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/msatekh"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_pad">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Light"
+            app:popupTheme="@style/MenuStyle">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?attr/actionBarSize"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp">
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="197dp"
+                    android:layout_height="30dp"
+                    android:layout_alignLeft="@+id/profile_image"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#fff">
+                </TextView>
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabSelectedTextColor="@color/colorPrimaryDarki"
+            app:tabIndicatorColor="@color/colorPrimaryDarki"
+            app:tabTextColor="#fff">
+
+        </com.google.android.material.tabs.TabLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:visibility="visible"
+        android:layout_gravity="center"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4894887383722001/2576826830">
+        <!-- msai Acc -> ca-app-pub-1091775549314057/9708314618 -->
+        <!-- msatekh Acc - ca-app-pub-8998896087152198/4570848016 -->
+        <!-- poornakasi Acc - ca-app-pub-4894887383722001/4098815542 -->
+    </com.google.android.gms.ads.AdView>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
